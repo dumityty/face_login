@@ -1,0 +1,8 @@
+face_login.face_login:
+  path: 'face/login'
+  defaults:
+    _form: '\Drupal\face_login\Form\FaceLoginForm '
+    _title: 'Face Login'
+  requirements:
+    _access: 'TRUE'
+

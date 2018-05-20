@@ -1,0 +1,5 @@
+name: 'face_login'
+type: module
+description: 'Use compare faces AWS Rekognition API to login into Drupal'
+core: 8.x
+package: 'Custom'

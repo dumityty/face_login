@@ -1,0 +1,10 @@
+webcamjs:
+  version: 1.x
+  js:
+    js/webcam.min.js: {}
+face_login:
+  version: 1.x
+  js:
+    js/face_login.js: {}
+  dependencies:
+    - core/jquery

@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains face_login.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function face_login_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the face_login module.
+    case 'help.page.face_login':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Use compare faces AWS Rekognition API to login into Drupal') . '</p>';
+      return $output;
+
+    default:
+  }
+}
